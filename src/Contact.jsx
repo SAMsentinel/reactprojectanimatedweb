@@ -50,7 +50,7 @@ const formsubmit=(e)=>{
 
              <div className="row">
                <div className="col-md-6 col-10 mx-auto">
-                 <form onSubmit={formsubmit}>
+                 <form onSubmit={formsubmit} method="post" action="mailto:sumankunduloves@gmail.com">
 
 
 
@@ -87,7 +87,7 @@ const formsubmit=(e)=>{
 
 
 
-                      <button type="submit" class="btn btn-outline-primary my-3">Submit</button>
+                      <button type="submit" class="btn btn-outline-primary my-3" value="Send Email">Submit</button>
 
 
                  </form>
